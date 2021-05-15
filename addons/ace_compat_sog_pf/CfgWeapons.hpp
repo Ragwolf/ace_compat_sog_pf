@@ -1,5 +1,15 @@
 class CfgWeapons
 {
+	// Remove backblast from M127 Flare Launcher
+	class vn_Launcher_Base_F;
+	class vn_m127: vn_Launcher_Base_F
+	{
+		ace_overpressure_angle = 0;
+		ace_overpressure_damage = 0;
+		ace_overpressure_priority = 0;
+		ace_overpressure_range = 0;
+	};
+
 	#define HEARING_PROTECTION_OPEN ace_hearing_protection = 0; ace_hearing_lowerVolume = 0;
     #define HEARING_PROTECTION_VICCREW ace_hearing_protection = 0.85; ace_hearing_lowerVolume = 0.6;
     #define HEARING_PROTECTION_EARMUFF ace_hearing_protection = 0.75; ace_hearing_lowerVolume = 0.5;
@@ -60,14 +70,35 @@ class CfgWeapons
 		HEARING_PROTECTION_EARMUFF
 	};
 
-	class vn_Launcher_Base_F;
-
-	// Remove backblast from M127 handheld flare launcher
-	class vn_m127: vn_Launcher_Base_F
+	class vn_b_uniform_base;
+	class vn_b_uniform_heli_01_01: vn_b_uniform_base
 	{
-		ace_overpressure_angle = 0;
-		ace_overpressure_damage = 0;
-		ace_overpressure_priority = 0;
-		ace_overpressure_range = 0;
+		ACE_GForceCoef = 0.8;
+	};
+
+	class vn_b_uniform_k2b_01_01: vn_b_uniform_base
+	{
+		ACE_GForceCoef = 0.8;
+	};
+
+	class vn_b_uniform_k2b_01_02: vn_b_uniform_base
+	{
+		ACE_GForceCoef = 0.8;
+	};
+
+	class vn_b_uniform_k2b_02_01: vn_b_uniform_base
+	{
+		ACE_GForceCoef = 0.8;
+	};
+
+	class vn_b_uniform_k2b_02_02: vn_b_uniform_base
+	{
+		ACE_GForceCoef = 0.8;
+	};
+
+	class vn_o_uniform_base;
+	class vn_o_uniform_nva_air_01: vn_o_uniform_base
+	{
+		ACE_GForceCoef = 0.8;
 	};
 };
