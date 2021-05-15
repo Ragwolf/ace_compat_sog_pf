@@ -51,3 +51,7 @@ Configures [ACE Hearing](https://ace3mod.com/wiki/framework/hearing-framework.ht
 ### G-Force
 
 Configures G-Force coefficients for pilot uniforms.
+
+### Weapons
+
+Disables backblast for M127 Hand Flare launcher.
