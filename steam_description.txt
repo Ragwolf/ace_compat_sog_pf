@@ -1,0 +1,59 @@
+This is an unofficial ACE compatibility patch for the [url=https://store.steampowered.com/app/1227700/Arma_3_Creator_DLC_SOG_Prairie_Fire/]Arma 3 Creator DLC: S.O.G. Prairie Fire[/url]
+
+[h1]Features[/h1]
+
+[b]Explosives[/b]
+
+Configures the following explosives/mines/traps for use with ACE explosives:
+
+[list]
+    [*] Ammobox (booby-trapped)
+    [*] M112 Breaching Charge
+    [*] M14 Toe-popper Mine
+    [*] M15 Anti-Tank Mine
+    [*] M16 Bounding Mine
+    [*] M18 Claymore (Proximity)
+    [*] M18 Claymore x3 (Remote)
+    [*] M18 Claymore x3 (Proximity)
+    [*] Punji Trap (Large)
+    [*] Punji Trap (Small)
+    [*] Punji Trap (Whip)
+    [*] Satchel Charge
+    [*] TM-57 Anti-Tank Mine
+    [*] M16 Tripwire (2m)
+    [*] M16 Tripwire (4m)
+    [*] Artillery Shell Tripwire (4m)
+    [*] F-1 Tripwire (2m)
+    [*] F-1 Tripwire (4m)
+    [*] M49A1 Tripwire (2m)
+    [*] M49A1 Tripwire (4m)
+[/list]
+
+[b]Grenades[/b]
+
+Disables ACE frag effects for the following grenades:
+
+* Grenade (Molotov Cocktail)
+* Grenade M34 (WP)
+* Grenade M7A3 (CS Gas)
+
+[b]Hearing[/b]
+
+Configures [url=https://ace3mod.com/wiki/framework/hearing-framework.html]ACE Hearing[/url] for pilot/crew helmets.
+
+[b]G-Force[/b]
+
+Configures G-Force coefficients for pilot uniforms.
+
+[b]Weapons[/b]
+
+Disables backblast for M127 Hand Flare launcher.
+
+[h1]Missing Features[/h1]
+
+There is currently no configuration for the following ACE features:
+
+[list]
+    [*] [url=https://ace3mod.com/wiki/framework/advanced-ballistics-framework.html]Advanced Ballistics Framework[/url]
+    [*] [url=https://ace3mod.com/wiki/framework/goggles-framework.html]Goggles Framework[/url]
+[/list]
