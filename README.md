@@ -2,13 +2,6 @@
 
 This is an unofficial ACE compatibility patch for the [Arma 3 Creator DLC: S.O.G. Prairie Fire](https://store.steampowered.com/app/1227700/Arma_3_Creator_DLC_SOG_Prairie_Fire/)
 
-## Missing Features
-
-There is currently no configuration for the following ACE features:
-
-* [Advanced Ballistics Framework](https://ace3mod.com/wiki/framework/advanced-ballistics-framework.html)
-* [Goggles Framework](https://ace3mod.com/wiki/framework/goggles-framework.html)
-
 ## Features
 
 ### Explosives
@@ -55,3 +48,10 @@ Configures G-Force coefficients for pilot uniforms.
 ### Weapons
 
 Disables backblast for M127 Hand Flare launcher.
+
+## Missing Features
+
+There is currently no configuration for the following ACE features:
+
+* [Advanced Ballistics Framework](https://ace3mod.com/wiki/framework/advanced-ballistics-framework.html)
+* [Goggles Framework](https://ace3mod.com/wiki/framework/goggles-framework.html)
